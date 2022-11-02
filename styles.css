@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*NAV*/
+#hero{
+    width: 100%;
+    height: 400px;
+    background: url(./images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: px;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.hamburger{ 
+    display: none;
+}
+
+.logo{
+    font-size: 1.5rem;
+    
+   color: hsl(0, 0%, 100%);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left: 2rem;
+}
+
+.hero-box{
+    width: 200px;
+    border: 2px solid white;
+}
+
+.hero-heading{
+    color: hsl(0, 0%, 100%);
+}
+
+/*VR*/
+.vr-container{
+    width: 100px;
+    height: auto;
+    position: relative;
+}
+
+.vr-image, 
+.vr-text-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.vr-image{
+    top: 50px;
+    left: 50px;
+}
+
+.vr-image img{
+    width: 300px;
+    height: auto;
+}
+
+.vr-text-container{
+
+    z-index: 1;
+}
