@@ -81,9 +81,10 @@ ul{
 
 /*VR*/
 .vr-container{
-    width: 100px;
+    width: 1000px;
     height: auto;
     position: relative;
+    margin: auto;
 }
 
 .vr-image, 
@@ -99,11 +100,132 @@ ul{
 }
 
 .vr-image img{
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
 .vr-text-container{
-
+    background-color: white;
+    padding: 40px;
+    width: 585px;
+    height: auto;
     z-index: 1;
+    top: 200px;
+    left: 450px;
 }
+
+.vr-heading-text{
+   
+    text-transform: uppercase;
+}
+
+.vr-text-p{
+    line-height: 30px;
+}
+
+
+/*OUR CREATIONS*/
+.our-creations{
+    display: block;
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    margin-top: 700px;
+
+}
+
+.grid-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 15px 15px;
+    margin: 15px;
+}
+
+.grid-text-container{
+    position: relative;
+    top: 90%;
+    left: 10%;
+}
+
+.grid-item-text{
+    position: absolute;
+   
+    z-index: 2;
+    color: pink;
+    text-transform: uppercase;
+}
+
+.grid-item{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 500px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+
+.grid-item1{
+    background-image:  url(./images/desktop/image-deep-earth.jpg);
+}
+
+.grid-item2{
+    background-image: url(./images/desktop/image-night-arcade.jpg);
+}
+
+.grid-item3{
+    background-image: url(./images/desktop/image-soccer-team.jpg);
+}
+
+.grid-item4{
+    background-image: url(./images/desktop/image-grid.jpg);
+}
+
+.grid-item5{
+    background-image: url(./images/desktop/image-from-above.jpg);
+}
+
+.grid-item6{
+    background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+
+.grid-item7{
+    background-image: url(./images/desktop/image-curiosity.jpg);
+}
+
+.grid-item8{
+    background-image: url(./images/desktop/image-fisheye.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
